@@ -1,0 +1,83 @@
+/* ***** Begin Not Part of CSS Rules ***** */
+.bodyContainer{
+    margin:10vh 20%;
+}
+/* ***** End Not Part of CSS Rules ***** */
+
+/* ***** Begin My Custom Searchbox ***** */
+.searchContainer{
+    background:no-repeat left center url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAIAAAE9+4fCAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAPlSURBVHjaYvz////Ro0cZYAAggJgYUAFAAKHzAQIIwbe2tgaSAAGE4ENMAQggxsuXL3/8+BEiJC8vDxBATHAOEMjIyAAEEEi9qampnJwcRAgggFiA+PTp03AlAAGEbh9AADGiuQ8ZAF0AEEAscI66urqIiMjv379PnToFFwQIIIRpQLkTJ06wsrIiGwAQQCxojkezCCCAQHYz4AYAAYTPaQABxIRLAggAAogJj5kAAYQSvJAQhgOAAIK6VkdHB2K4paXl8ePHIYIAAQSVu3LliomJyadPn54+fQrXBxBACF+eOXMGEitwEYAAQnfLw4cP4WyAAMLnToAAwhc0AAGEL1zwAKBvAQKIiYFcABBA5OsECCB0ncCEAnQJJycnhGthYaGrq4tVJ0AAoevk5+f/9+/f9+/fIVxgLHBxcWHVCRBALGj8u2Cgr6/Pw8Pz58+f169fCwoKSkpKPn/+HE0lQACxYDXv4sWLcPa9e/ewqgEIIPJDCCCAQDplZWXJ0AkQQKCUAMz/169f//v3L/HaAAKIBagHmJJJtQ0ggJiA9pDhSIAAYiLJbXAAEEBkhidAAJGpDSCA0OOdmZnZ3NyckZERnoBevHiBqQ0ggNC1AQuHb9++XbhwAciWkpJSVlbGqg0ggNAdycLCcv/+fQj72bNnwFiVlpbG1AYQQFj8xsvLi0gNjIw/fvzAVAMQQOiOfPXqFbCIgiQdYN4DMt6+fYupDSCA0G27ffv2rVu3gBULMB8BdQK1AfMupjaAAMKSg16DAZwLLFeBAQMMUmQ1AAHEQjCK4GUxMgAIIDKjGyCAyNQGEEBMfHx8ZGgDCCAmXCUcfgAQQASqR1wAIICg2h49evT48WMGGgNgUQ4QQKCYAzZKgMUxA10AQAAxQcp+BnoBgABiYqAvAAggetsHEEAsRKoTFRUFFmnAKpeJCeREYD364cMHYGn1+fNnkuwDCCDC9qmqqoqJiQEZP3/+BCZjYBEKbC4A7RYWFga2HoAWA8uON2/eEGkfQAARsA9YFAEtAzYsgLnlyZMnEMEvX74AyzogQ0tLC9hUAKrBVUpiAoAAIhB/kJYP0BNYww1oMdAmYO2Dq2mDCQACiIB9wNADWsbGxqaoqAhvdUGAFBgAq42vX78CI5JI+wACiEB4AiPm/fv3KioqwNgyMjLCqoaDgwOYmrBWjZgAIIAIpxdgA+PmzZu4ZIF1HaQqVlBQePDgAUFbAQKIhcL89BAMJCQkgFGI3DnDBQACiIUquZjIwAQCgACid/kCEEBMkOYU3ewDCCCQfZqamnSzDyCAENU0MLaBxRUwM5HX4iUGABMzQIABABojWhysuXWEAAAAAElFTkSuQmCC');
+    padding:18px 0 18px 36px;
+}
+.searchContainer input[type=text]{
+    padding:0 0 0 5px;
+    height:33px;
+    border-radius:0 5px 5px 0;
+    border:solid #CCCCCC 1px;
+}
+/* ***** End My Custom Searchbox ***** */
+
+
+/* ***** Begin Custom Searchbox With Blue Search Label Arrow on Right ***** */
+.formContainer{
+    width:500px;
+    margin:50px auto;
+}
+    .search{
+        padding:8px 15px;
+        background: rgb(50, 50, 50, 0.2);
+        border:0px solid #DBDBDB;
+    }
+    .button{
+        position:relative;
+        padding:6px 15px;
+        left:-8px;
+        border:0;
+        background-color:#207CCA;
+        color:#FAFAFA;
+    }
+    .button:hover, .arrow:hover{
+        background-color:#6195BF;
+    }
+    .arrow{
+        position:relative;
+        left:-8px;
+        background:#207CCA;
+        padding:8px 15px;
+    }
+    .arrow:after{
+        right:100%;
+        top:50%;
+        border:solid transparent;
+        content:" ";
+        width:0;
+        height:0;
+        position:absolute;
+        border-color:rgb(32, 124, 202, 0);
+        border-right-color:#207CCA;
+        border-width:10px;
+        margin-top:-10px;
+    }    
+    ::-webkit-input-placeholder { /* For WebKit browsers */
+        color:#DD3333;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+    }    
+    :-moz-placeholder { /* For WebKit browsers */
+        color:#DD3333;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+    }        
+    ::-moz-placeholder { /* For WebKit browsers */
+        color:#DD3333;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+    } 
+    :-ms-input-placeholder { /* For Internet Explorer 10+ */
+        color:#DD3333;
+        font-family:Helvetica Neue;
+        font-weight:bold;
+    }               
+/* ***** End Custom Searchbox With Blue Search Label Arrow on Right ***** */
+
+
