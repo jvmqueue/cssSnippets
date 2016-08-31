@@ -1,0 +1,118 @@
+body{
+    background-color:#CCCCCC;
+}
+.container{
+    background-color:red;   
+}
+.row{
+    background-color:green;
+}
+.col{
+    width:8.3%;
+    height:200px;
+    float:left;
+}
+.container .row.header{
+    background-color:#FFFFFF;   
+    height:200px;
+}
+.col.mergeTwo{
+    width:16.6%;
+}
+.col.mergeThree{
+    width:24.9%;
+}
+.col.decreaseByOne{
+    width:7.3%;
+} 
+.col.increaseByOne{
+    width:9.3%;
+}
+.col.increaseByTwo{
+    width:10.3%;
+}
+.col.margin{
+    background-color:#FFFFFF;
+}
+.col.increaseTopMargin{
+    margin-top:10px;
+}
+.swooosh{
+    background: no-repeat left top url(../images/swooshLeft.png);
+    width:100%;
+    height:400px;
+    background-size:contain;    
+}
+.logo{
+    background: no-repeat left top url(../images/assurantLogo.png);
+    width:71%;
+    height:400px;
+    background-size:contain;        
+    position:relative;
+    top:13px;
+    left:3%;
+    padding-top:20px;
+}
+
+
+.red{
+    background-color:#e8654e;  
+}
+.green{
+    background-color:#68ed4e;
+}
+.blue{
+    background-color:#1fa4f2;
+}
+
+
+
+/* ***** Begin My Custom Searchbox ***** */
+.searchContainer{
+    background:no-repeat left center url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAIAAAE9+4fCAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAPlSURBVHjaYvz////Ro0cZYAAggJgYUAFAAKHzAQIIwbe2tgaSAAGE4ENMAQggxsuXL3/8+BEiJC8vDxBATHAOEMjIyAAEEEi9qampnJwcRAgggFiA+PTp03AlAAGEbh9AADGiuQ8ZAF0AEEAscI66urqIiMjv379PnToFFwQIIIRpQLkTJ06wsrIiGwAQQCxojkezCCCAQHYz4AYAAYTPaQABxIRLAggAAogJj5kAAYQSvJAQhgOAAIK6VkdHB2K4paXl8ePHIYIAAQSVu3LliomJyadPn54+fQrXBxBACF+eOXMGEitwEYAAQnfLw4cP4WyAAMLnToAAwhc0AAGEL1zwAKBvAQKIiYFcABBA5OsECCB0ncCEAnQJJycnhGthYaGrq4tVJ0AAoevk5+f/9+/f9+/fIVxgLHBxcWHVCRBALGj8u2Cgr6/Pw8Pz58+f169fCwoKSkpKPn/+HE0lQACxYDXv4sWLcPa9e/ewqgEIIPJDCCCAQDplZWXJ0AkQQKCUAMz/169f//v3L/HaAAKIBagHmJJJtQ0ggJiA9pDhSIAAYiLJbXAAEEBkhidAAJGpDSCA0OOdmZnZ3NyckZERnoBevHiBqQ0ggNC1AQuHb9++XbhwAciWkpJSVlbGqg0ggNAdycLCcv/+fQj72bNnwFiVlpbG1AYQQFj8xsvLi0gNjIw/fvzAVAMQQOiOfPXqFbCIgiQdYN4DMt6+fYupDSCA0G27ffv2rVu3gBULMB8BdQK1AfMupjaAAMKSg16DAZwLLFeBAQMMUmQ1AAHEQjCK4GUxMgAIIDKjGyCAyNQGEEBMfHx8ZGgDCCAmXCUcfgAQQASqR1wAIICg2h49evT48WMGGgNgUQ4QQKCYAzZKgMUxA10AQAAxQcp+BnoBgABiYqAvAAggetsHEEAsRKoTFRUFFmnAKpeJCeREYD364cMHYGn1+fNnkuwDCCDC9qmqqoqJiQEZP3/+BCZjYBEKbC4A7RYWFga2HoAWA8uON2/eEGkfQAARsA9YFAEtAzYsgLnlyZMnEMEvX74AyzogQ0tLC9hUAKrBVUpiAoAAIhB/kJYP0BNYww1oMdAmYO2Dq2mDCQACiIB9wNADWsbGxqaoqAhvdUGAFBgAq42vX78CI5JI+wACiEB4AiPm/fv3KioqwNgyMjLCqoaDgwOYmrBWjZgAIIAIpxdgA+PmzZu4ZIF1HaQqVlBQePDgAUFbAQKIhcL89BAMJCQkgFGI3DnDBQACiIUquZjIwAQCgACid/kCEEBMkOYU3ewDCCCQfZqamnSzDyCAENU0MLaBxRUwM5HX4iUGABMzQIABABojWhysuXWEAAAAAElFTkSuQmCC');
+    padding:18px 0 18px 36px;
+}
+.searchContainer input[type=text]{
+    padding:0 0 0 5px;
+    width:93%;
+    height:33px;
+    border-radius:0 5px 5px 0;
+    border:solid #CCCCCC 1px;
+}
+/* ***** End My Custom Searchbox ***** */
+
+
+
+
+/* ***** Begin Fancy Web Button ***** */
+.btn{
+    background:#3498DB;
+    background-image:-webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image:-moz-linear-gradient(top, #3498db, #2980b9);
+    background-image:-ms-linear-gradient(top, #3498db, #2980b9);
+    background-image:-o-linear-gradient(top, #3498db, #2980b9);
+    background-image:linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius:28;
+    -moz-border-radius:28;
+    border-radius:10px;
+    font-family:Arial;
+    color:#FFFFFF;
+    font-size:16px;
+    padding:6%;
+    text-decoration:none;
+    cursor:pointer;
+    position:relative;
+    top:28px;
+    
+}
+
+.btn:hover{
+  background:#3CB0FD;
+  background-image:-webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image:-moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image:-ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image:-o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image:linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration:none;
+}
+/* ***** End Fancy Web Button ***** */

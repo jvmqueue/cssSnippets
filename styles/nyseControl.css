@@ -1,0 +1,47 @@
+/* Begin NYSE Control */
+    .containerNyse{
+        display:flex;
+        width:193px;
+        height:57px;
+        background-color:#F1F1F1;
+        border-radius:10px;
+        border:solid #C4C4C4 1px;
+    }
+    .inlineBlock{
+    font-family: sans-serif;
+    display: inline-block;
+    width: 45px;
+    height: 16px;
+    align-self: center;
+    }
+    .nyseBackground {
+        background:transparent center 27px no-repeat url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAjCAIAAAH4dSQrAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAP8SURBVHjaYvz////Ro0cZkABAADExYACAAIIK8fHxAUkLCwsgCRBAUKFPnz4ByRMnTgBJgADCohEggBjPnz//9etXOF9eXh4ggJiQ+RBDAQIIpFFFRQVosIiICEQUIIBYgPgOGMAVAgQQFuMBAogR0/VoQFdXFyCAWJD5AgICHz584OHhUVZW5uTkBJr/5s0boDhAAKEY/u/fPxMTE0FBQTSnAgQQiklAn585cwbCRnYmQAARdhNAADHhlwYCgABiYiAEAAII6hQdHZ1v375xcXExMTEBySdPnsjIyEBiAyCAoGZwcHAAyStXrly6dOn3799A9q9fvyBSAAGEsOXdu3cQBisrK5BkY2ODcAECiPHIkSP43QEQQIRdChBAQJcRUAQQQKAQA7r579+/DOQCYDQDBBDIEkqMgACAAGJioAYACCAWND4wNb148QIYrMDEBoygx48fS0lJMTMz37x5E+hkoMiPHz8g6RAZAAQQFrcAIxiSRa5du6aurg7UD2QAjTAyMsLlFoAAIpweiQldgACiTrgABBB1TAEIIJAp1tbWwPROthHAzAsQQKBw+fjx49WrV4EM8kwBCCAWYJwBo4ASvwAEENP9+/cpDA6AAGKCZ2iyAUAAUSFeAAKICkYABBBKrgFmirdv337//h2YtIEevH79OrBsUlJSYmRk5OXlBRZmwEQJZAPT/unTp+G6AAIIPeOpqqoClUIKQD09PaCGixcv6uvrQ4pIoGZ4EQ4HAAGE7pFnz55pampC2EDnfPnyBch4//490H4gA5iJgdUWpGKEA4AAYsGa4IDVDcQIYGYHMh49egTUBvQRVlcABBCW4Hz69OnPnz+RRczNzTU0NB4+fAhxhampKbIsQAARLrwJAoAAokKkAgQQFYwACCAqGAEQQEzwKo1sABBATIqKihQaARBATMCyG1hjA1Mh2UYABBAjpLACNjiAuePPnz9As8guviipDwACCJTEgTnr8+fPECH6OwICAAIIlDbgjhhAABBATAyDAwAE0GBxB0AADRZ3AAQQCx45YBUjLS0NbPvevn0byAUWxcDeATBnARsWQHFggw1Y4srKyoqLi0PKamCHANj+ev78OVy7hITEgwcPMFtumAAggFjwSwPrAGCtAMxXwKYhXBDoAmCLXUFBAegsdnb2u3fvAqsdIANS7ZAXHgABxEJQBbCCAnpITU0N2AuCCwILG2D1BfEu0BFAkcdgAHQHsOMGdB+wEiLJHQABRFT6ADoFWF0DSzmCKoHhB2wkQDpBJLkDIICo0DqmSnkKEECDJb8ABNBgcQdAAA0WdwAE0GBxB0AAgdwBbPcOuDsAAgjkDmBDGlgmsrCwMILBgLgDIMAA35J2jgBB31gAAAAASUVORK5CYII=');
+        padding: 36px 0;
+    }
+    span.nyseBlueTextWidth{
+        width:35px;
+    }
+    .nyseBlueText{
+        color:#0077C0;
+        padding-left:0;
+        width:30px;
+    }
+    .nyseGrayText{
+        color:#A6A6A6;
+        padding-left:10px;
+        width:30px;
+    }
+    .barBlueLeft{
+        border-left:solid #A3CAE2 2px;
+    }
+    .barBlueRight{
+        background:transparent right -3px no-repeat url(../images/barVerticalBlue.png);
+        background-size:2px 19px;
+    }
+    .nysePaddingLeftMedium{
+        padding-left:9px;
+    }    
+    .nysePaddingLeftLarge{
+        padding-left:18px;
+    }
+/* End NYSE Control */

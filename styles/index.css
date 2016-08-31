@@ -1,0 +1,27 @@
+body{
+   background-color:#e59480;
+}
+.pageColor{
+   background-color:#e24e2d;
+   margin:10px 10%;
+   border:0;
+   border-radius:10px;
+   padding:1%;
+}
+.link2{
+   border:solid 2px #AAAAAA;
+   border-radius:3x;
+   -moz-border-radius:3px;
+   -webkit-border-radius:3px;
+   background-color:#ff2c02;
+   color:#000000;
+   text-decoration:none;
+   font-weight:bold;
+   margin:10px 3px 10px 3px;
+   padding:3px;
+   display:block;
+}
+.link2:hover{ 
+   background-color:#fca08f; 
+   color:#e24e2d;
+}
